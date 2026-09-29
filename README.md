@@ -5,12 +5,15 @@ Solving one problem every day from the [NeetCode 250](https://neetcode.io) roadm
 ### Daily Flow
 1. **Scaffold problem**:
    ```bash
-   python3 new_problem.py <number> <slug> <topic> <difficulty>
+   python3 new_problem.py <order-index> <leetcode-number> <slug> <topic> <difficulty>
    ```
+   *(Example: `python3 new_problem.py 1 1929 concatenation-of-array arrays-and-hashing Easy`)*
+
 2. **Solve & document**:
-   - Write solution in `problems/<topic>/<number>-<slug>/solution.py`
-   - Fill in details and takeaways in `problems/<topic>/<number>-<slug>/README.md`
-   - Add a row to the table below.
+   - Write solution in `problems/<topic>/<order>-<number>-<slug>/solution.py`
+   - Fill in details and takeaways in `problems/<topic>/<order>-<number>-<slug>/README.md`
+   - Add a row to the progress table below.
+
 3. **Commit & push**:
    ```bash
    git add .
@@ -24,4 +27,4 @@ Solving one problem every day from the [NeetCode 250](https://neetcode.io) roadm
 
 | Date | # | Problem | Topic | Difficulty | Pattern |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-09-29 | 1929 | [Concatenation of Array](problems/arrays-and-hashing/1929-concatenation-of-array/) | arrays-and-hashing | Easy | Array |
+| 2026-09-29 | 1929 | [Concatenation of Array](problems/01-arrays-and-hashing/01-1929-concatenation-of-array/) | 01-arrays-and-hashing | Easy | Array |
