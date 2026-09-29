@@ -1,0 +1,7 @@
+- Problem: [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
+- Difficulty: Easy
+- Pattern: Array
+- Time complexity: O(n)
+- Space complexity: O(n)
+- What I learned / my mistake:
+  - In Python, `nums + nums` or `nums * 2` provides an idiomatic and clean O(n) concatenation.
